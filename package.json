@@ -1,0 +1,19 @@
+{
+  "name": "ft_tg_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "ethers": "^6.7.1",
+    "mongoose": "^7.5.2",
+    "node-telegram-bot-api": "^0.63.0",
+    "randomstring": "^1.3.0"
+  }
+}

@@ -1,0 +1,154 @@
+{
+    "main": [
+        [
+            {
+                "text": "生成钱包",
+                "callback_data": "generateWallet"
+            },
+            {
+                "text": "导入钱包",
+                "callback_data": "importWallet"
+            }
+        ],
+        [
+            {
+                "text": "查询用户名或推特",
+                "callback_data": "checkUsernameAndTwitter"
+            },
+            {
+                "text": "导入受监控的钱包",
+                "callback_data": "importMonitoredWallet"
+            }
+        ],
+        [
+            {
+                "text": "获取我的余额",
+                "callback_data": "getMyBalance"
+            },
+            {
+                "text": "所有钱包余额",
+                "callback_data": "allWalletsBalance"
+            },
+            {
+                "text": "转出ETH",
+                "callback_data": "transferOutETH"
+            }
+        ],
+        [
+            {
+                "text": "限制价格",
+                "callback_data": "setThreshold"
+            },
+            {
+                "text": "设置跟随钥匙数量",
+                "callback_data": "setFollowTokenNumber"
+            }
+        ],
+        [
+            {
+                "text": "设置购买钥匙数量",
+                "callback_data": "setBuyTokenNumber"
+            },
+            {
+                "text": "设置出售钥匙数量",
+                "callback_data": "setSellTokenNumber"
+            }
+        ],
+        [
+            {
+                "text": "🎯开始跟随",
+                "callback_data": "start"
+            },
+            {
+                "text": "🛑 停止跟随",
+                "callback_data": "stop"
+            }
+        ],
+        [
+            {
+                "text": "💵 购买钥匙",
+                "callback_data": "buyToken"
+            },
+            {
+                "text": "💰 出售钥匙",
+                "callback_data": "sellToken"
+            }
+        ],
+        [
+            {
+                "text": "第一次购买钥匙 ✨反狙击手!✨",
+                "callback_data": "antiSniper"
+            }
+        ],
+        [
+            {
+                "text": "📝 查看订单",
+                "callback_data": "checkOrders"
+            }
+        ],
+        [
+            {
+                "text": "📜 选择钱包",
+                "callback_data": "selectWallet"
+            },
+            {
+                "text": "❌ 删除钱包",
+                "callback_data": "deleteWallet"
+            },
+            {
+                "text": "🗂️ 导出钱包",
+                "callback_data": "exportWallet"
+            }
+        ],
+        [
+            {
+                "text": "📃 受监控的钱包列表",
+                "callback_data": "monitoredWalletList"
+            },
+            {
+                "text": "❌ 删除受监控的钱包",
+                "callback_data": "deleteMonitoredWallet"
+            }
+        ],
+        [
+            {
+                "text": "⚙ 设置",
+                "callback_data": "setting"
+            }
+        ]
+    ],
+    "setting": [
+        [
+            {
+                "text": "🌎 更改语言",
+                "callback_data": "changeLanguage"
+            },
+            {
+                "text": "🛎️ 切换跟随警报",
+                "callback_data": "toggleFollowAlertStatus"
+            }
+        ],
+        [
+            {
+                "text": "🎟️ 设置推荐码",
+                "callback_data": "setReferralCode"
+            },
+            {
+                "text": "🎫 我的推荐链接",
+                "callback_data": "checkMyReferralLink"
+            }
+        ]
+    ],
+    "toggleFollowAlertStatus": [
+        [
+            {
+                "text": "打开",
+                "callback_data": "followAlertStatusOn"
+            },
+            {
+                "text": "关闭",
+                "callback_data": "followAlertStatusOff"
+            }
+        ]
+    ]
+}

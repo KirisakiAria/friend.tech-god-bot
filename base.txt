@@ -1,0 +1,18 @@
+This is a friend.tech bot with a number of features such as initial purchase counter sniper, follow orders, buy sell, wallet escrow and more. More features are in development.
+IMPORTANT: Before using for the first time, please type /help and read the notes carefully!
+Type /start to enter the main menu.
+The menu button on the left lists all available commands.
+Twitter: https://twitter.com/ftgodbot
+TG Group: https://t.me/ftgodbot
+
+start - Enter main menu
+help - Show help information
+check - Check username and Twitter
+balance - Get my banlance
+threshold - Set following to buy limit price
+sftn - Set the number of keys when following to buy
+sbtn - Set the number of keys when buying
+sstn - Set the number of keys when selling
+buytoken - Buy some keys
+selltoken - Sell some keys
+setting - Setting

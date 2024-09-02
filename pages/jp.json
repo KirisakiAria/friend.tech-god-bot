@@ -1,0 +1,155 @@
+{
+    "main": [
+        [
+            {
+                "text": "ウォレットを生成する",
+                "callback_data": "generateWallet"
+            },
+            {
+                "text": "ウォレットをインポートする",
+                "callback_data": "importWallet"
+            }
+        ],
+        [
+            {
+                "text": "ユーザー名またはTwitterをチェック",
+                "callback_data": "checkUsernameAndTwitter"
+            },
+
+            {
+                "text": "監視対象のウォレットをインポートする",
+                "callback_data": "importMonitoredWallet"
+            }
+        ],
+        [
+            {
+                "text": "バランスを取る",
+                "callback_data": "getMyBalance"
+            },
+            {
+                "text": "すべての財布の残高",
+                "callback_data": "allWalletsBalance"
+            },
+            {
+                "text": "ETHの移転",
+                "callback_data": "transferOutETH"
+            }
+        ],
+        [
+            {
+                "text": "指値価格",
+                "callback_data": "setThreshold"
+            },
+            {
+                "text": "次のキーの数を設定します",
+                "callback_data": "setFollowTokenNumber"
+            }
+        ],
+        [
+            {
+                "text": "購入したキーの数を設定する",
+                "callback_data": "setBuyTokenNumber"
+            },
+            {
+                "text": "販売するキーの数を設定します",
+                "callback_data": "setSellTokenNumber"
+            }
+        ],
+        [
+            {
+                "text": "🎯フォローを開始",
+                "callback_data": "start"
+            },
+            {
+                "text": "🛑 フォローをやめる",
+                "callback_data": "stop"
+            }
+        ],
+        [
+            {
+                "text": "💵 キーを購入する",
+                "callback_data": "buyToken"
+            },
+            {
+                "text": "💰 キーを売る",
+                "callback_data": "sellToken"
+            }
+        ],
+        [
+            {
+                "text": "初めてキーを購入します ✨アンチスナイパー!✨",
+                "callback_data": "antiSniper"
+            }
+        ],
+        [
+            {
+                "text": "📝 注文を確認する",
+                "callback_data": "checkOrders"
+            }
+        ],
+        [
+            {
+                "text": "📜 ウォレットを選択してください",
+                "callback_data": "selectWallet"
+            },
+            {
+                "text": "❌ ウォレットを削除する",
+                "callback_data": "deleteWallet"
+            },
+            {
+                "text": "🗂️ エクスポートウォレット",
+                "callback_data": "exportWallet"
+            }
+        ],
+        [
+            {
+                "text": "📃 監視対象ウォレットのリスト",
+                "callback_data": "monitoredWalletList"
+            },
+            {
+                "text": "❌ 監視対象のウォレットを削除する",
+                "callback_data": "deleteMonitoredWallet"
+            }
+        ],
+        [
+            {
+                "text": "⚙ セッティング",
+                "callback_data": "setting"
+            }
+        ]
+    ],
+    "setting": [
+        [
+            {
+                "text": "🌎 言語の変更",
+                "callback_data": "changeLanguage"
+            },
+            {
+                "text": "🛎️ 警告ステータスの切り替え",
+                "callback_data": "toggleFollowAlertStatus"
+            }
+        ],
+        [
+            {
+                "text": "🎟️ 紹介コードの設定",
+                "callback_data": "setReferralCode"
+            },
+            {
+                "text": "🎫 私の紹介リンク",
+                "callback_data": "checkMyReferralLink"
+            }
+        ]
+    ],
+    "toggleFollowAlertStatus": [
+        [
+            {
+                "text": "オン",
+                "callback_data": "followAlertStatusOn"
+            },
+            {
+                "text": "オフ",
+                "callback_data": "followAlertStatusOff"
+            }
+        ]
+    ]
+}

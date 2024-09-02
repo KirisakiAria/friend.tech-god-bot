@@ -1,0 +1,154 @@
+{
+    "main": [
+        [
+            {
+                "text": "Generate Wallet",
+                "callback_data": "generateWallet"
+            },
+            {
+                "text": "Import Wallet",
+                "callback_data": "importWallet"
+            }
+        ],
+        [
+            {
+                "text": "Check Username and Twitter",
+                "callback_data": "checkUsernameAndTwitter"
+            },
+            {
+                "text": "Import Monitored Wallet",
+                "callback_data": "importMonitoredWallet"
+            }
+        ],
+        [
+            {
+                "text": "Get My Balance",
+                "callback_data": "getMyBalance"
+            },
+            {
+                "text": "All Wallets Balance",
+                "callback_data": "allWalletsBalance"
+            },
+            {
+                "text": "Transfer Out ETH",
+                "callback_data": "transferOutETH"
+            }
+        ],
+        [
+            {
+                "text": "Limit On Price",
+                "callback_data": "setThreshold"
+            },
+            {
+                "text": "Set Follow Number",
+                "callback_data": "setFollowTokenNumber"
+            }
+        ],
+        [
+            {
+                "text": "Set Buy Number",
+                "callback_data": "setBuyTokenNumber"
+            },
+            {
+                "text": "Set Sell Number",
+                "callback_data": "setSellTokenNumber"
+            }
+        ],
+        [
+            {
+                "text": "🎯Start Following",
+                "callback_data": "start"
+            },
+            {
+                "text": "🛑 Stop Following",
+                "callback_data": "stop"
+            }
+        ],
+        [
+            {
+                "text": "💵 Buy Keys",
+                "callback_data": "buyToken"
+            },
+            {
+                "text": "💰 Sell Keys",
+                "callback_data": "sellToken"
+            }
+        ],
+        [
+            {
+                "text": "Purchase Your Key First Time ✨Anti-Sniper!✨",
+                "callback_data": "antiSniper"
+            }
+        ],
+        [
+            {
+                "text": "📝 Check Orders",
+                "callback_data": "checkOrders"
+            }
+        ],
+        [
+            {
+                "text": "📜 Select Wallet",
+                "callback_data": "selectWallet"
+            },
+            {
+                "text": "❌ Delete Wallet",
+                "callback_data": "deleteWallet"
+            },
+            {
+                "text": "🗂️ Export Wallet",
+                "callback_data": "exportWallet"
+            }
+        ],
+        [
+            {
+                "text": "📃 Monitored Wallet List",
+                "callback_data": "monitoredWalletList"
+            },
+            {
+                "text": "❌ Delete Monitored Wallet",
+                "callback_data": "deleteMonitoredWallet"
+            }
+        ],
+        [
+            {
+                "text": "⚙ Setting",
+                "callback_data": "setting"
+            }
+        ]
+    ],
+    "setting": [
+        [
+            {
+                "text": "🌎 Change Language",
+                "callback_data": "changeLanguage"
+            },
+            {
+                "text": "🛎️ Toggle Follow Alert Status",
+                "callback_data": "toggleFollowAlertStatus"
+            }
+        ],
+        [
+            {
+                "text": "🎟️ Set Referral Code",
+                "callback_data": "setReferralCode"
+            },
+            {
+                "text": "🎫 My Referral Link",
+                "callback_data": "checkMyReferralLink"
+            }
+        ]
+    ],
+    "toggleFollowAlertStatus": [
+        [
+            {
+                "text": "On",
+                "callback_data": "followAlertStatusOn"
+            },
+            {
+                "text": "Off",
+                "callback_data": "followAlertStatusOff"
+            }
+        ]
+    ]
+}

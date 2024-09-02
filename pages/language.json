@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "text": "🇺🇸 English",
+            "callback_data": "setEnglish"
+        },
+        {
+            "text": "🇨🇳 简体中文",
+            "callback_data": "setSimplifiedChinese"
+        },
+        {
+            "text": "🇯🇵 日本語",
+            "callback_data": "setJapanese"
+        }
+    ]
+]

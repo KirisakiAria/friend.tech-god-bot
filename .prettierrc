@@ -1,0 +1,12 @@
+{
+    "tabWidth": 4,
+    "printWidth": 100,
+    "eslintIntegration": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": false,
+    "endOfLine": "auto",
+    "vueIndentScriptAndStyle": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "arrowParens": "avoid"
+}
